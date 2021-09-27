@@ -1,0 +1,21 @@
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/pattern-background-mobile.svg) repeat-x;
+  background-size: 100vw;
+  background-color: $paleBlue;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+}
+
+@media(min-width: $resolutionMobile){
+  .mainContainer{
+    background: url(../images/pattern-background-desktop.svg) repeat-x;
+    background-size: 50vw;
+    background-color: $paleBlue;
+  }
+}

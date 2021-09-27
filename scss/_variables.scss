@@ -1,0 +1,19 @@
+//Layout
+  $resolutionMobile: 500px;
+  $resolutionDesktop: 900px;
+//colors
+  //primary
+  $paleBlue: hsl(225, 100%, 94%);
+  $brightBlue: hsl(245, 75%, 52%);
+  
+  //neutral
+  $veryPaleBlue: hsl(225, 100%, 98%);
+  $desaturatedBlue: hsl(224, 23%, 55%);
+  $darkBlue: hsl(223, 47%, 23%);
+
+//Typography 
+  $fontSize: 16px; //Paragraph
+  $fontFamily: 'Red Hat Display', sans-serif;
+  $fontWeightLight: 500;
+  $fontWeightMedium: 700;
+  $fontWeightStrong: 900;

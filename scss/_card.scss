@@ -1,0 +1,14 @@
+.mainContainer__card{
+  height: 80%;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  border: solid 1px red;
+  border-radius: 0.7rem;
+  overflow: hidden;
+}
+.card__info{
+  display: flex;
+  flex-direction: column;
+}

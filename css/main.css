@@ -1,0 +1,51 @@
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/pattern-background-mobile.svg) repeat-x;
+  background-size: 100vw;
+  background-color: #e0e8ff;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif; }
+
+@media (min-width: 500px) {
+  .mainContainer {
+    background: url(../images/pattern-background-desktop.svg) repeat-x;
+    background-size: 50vw;
+    background-color: #e0e8ff; } }
+.mainContainer__card {
+  height: 80%;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+  border: solid 1px red;
+  border-radius: 0.7rem;
+  overflow: hidden; }
+
+.card__info {
+  display: flex;
+  flex-direction: column; }
+
+.mainContainer__attribution {
+  position: absolute;
+  bottom: 1rem;
+  max-width: 70%;
+  text-align: center;
+  position: absolute; }
+
+.mainContainer__attribution a {
+  color: #3e52a3; }
+
+.mainContainer__attribution a:hover {
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=main.css.map */
