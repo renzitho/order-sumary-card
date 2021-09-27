@@ -1,14 +1,93 @@
 .mainContainer__card{
-  height: 80%;
-  width: 30rem;
+  height: 32rem;
+  width: 22rem;
   display: flex;
   flex-direction: column;
   margin: 0 5%;
-  border: solid 1px red;
   border-radius: 0.7rem;
   overflow: hidden;
-}
-.card__info{
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0 0 14px 1px $colorDesaturatedBlue;
+  .card__info{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background: $colorBrightBlueBrigther;
+    height: 100%;
+    padding: 1rem 2rem;
+    h2{
+      font-size: 1.4rem;
+      color: $colorDarkBlue;
+      font-weight: $fontWeightStrong;
+    }
+    >p{
+      color: $colorDesaturatedBlue;
+      font-weight: $fontWeightLight;
+      margin: 0.5rem 0 1rem 0;
+    }
+    .planOptions{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      border-radius: 1rem;
+      background: $colorVeryPaleBlue;
+      position: relative;
+      padding: 0.5rem 0;
+      .planOptions__imageContainer{
+        display: flex;
+        border: solid 1px transparent;
+        border-radius: 50%;
+        margin: 0 1rem;
+        background: $colorPaleBlue
+      }
+      .planOptions__display{
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        p{
+          color: $colorDarkBlue;
+          font-weight: $fontWeightStrong;
+        }
+        span{
+          color: $colorDesaturatedBlue;
+          font-weight: $fontWeightLight;
+        }
+      }
+      .planOptions__change{
+        position: absolute;
+        right: 1rem;
+        text-decoration: underline;
+        color: $colorBrightBlue;
+        font-weight: $fontWeightMedium;
+      }
+      .planOptions__change:hover{
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: $fontWeightLight;
+      }
+    }
+    .planOptions__payment{
+      padding: 1rem 0;
+      background: $colorBrightBlue;
+      color: $colorVeryPaleBlue;
+      font-weight: $fontWeightStrong;
+      border: solid 1px transparent;
+      border-radius: 1rem;
+      margin: 1.5rem 0 1rem 0;
+      transition: background 200ms;
+    }
+    .planOptions__payment:hover{
+      cursor: pointer;
+      background: $colorDesaturatedBlueBrigther;
+    }
+    .planOptions__cancelPayment{
+      color: $colorDesaturatedBlue;
+      font-weight: $fontWeightMedium;
+      transition: color 200ms;
+    }
+    .planOptions__cancelPayment:hover{
+      color: $colorDarkBlue;
+      cursor: pointer;
+    }
+  }
 }

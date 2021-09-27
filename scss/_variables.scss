@@ -3,13 +3,14 @@
   $resolutionDesktop: 900px;
 //colors
   //primary
-  $paleBlue: hsl(225, 100%, 94%);
-  $brightBlue: hsl(245, 75%, 52%);
-  
+  $colorPaleBlue: hsl(225, 100%, 94%);
+  $colorBrightBlue: hsl(245, 75%, 52%);
+  $colorBrightBlueBrigther:rgb(255, 100%, 100%);
   //neutral
-  $veryPaleBlue: hsl(225, 100%, 98%);
-  $desaturatedBlue: hsl(224, 23%, 55%);
-  $darkBlue: hsl(223, 47%, 23%);
+  $colorVeryPaleBlue: hsl(225, 100%, 98%);
+  $colorDesaturatedBlue: hsl(224, 23%, 55%);
+  $colorDesaturatedBlueBrigther: hsl(245, 75%, 62%);
+  $colorDarkBlue: hsl(223, 47%, 23%);
 
 //Typography 
   $fontSize: 16px; //Paragraph
