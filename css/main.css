@@ -33,7 +33,7 @@
     background: white;
     flex-grow: 1;
     padding: 1rem 2rem; }
-    .mainContainer__card .card__info h2 {
+    .mainContainer__card .card__info h1 {
       font-size: 1.4rem;
       color: #1f2f56;
       font-weight: 900; }
